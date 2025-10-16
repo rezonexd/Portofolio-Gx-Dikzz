@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gx Dikzz • Developer REZ•oneXD</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background-image: url('https://h.uguu.se/dJXZuLLo.jpg');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      color: #fff;
+    }
+
+    .overlay {
+      background: rgba(0, 0, 0, 0.5);
+      min-height: 100vh;
+      width: 100%;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 80px 20px;
+      text-align: center;
+    }
+
+    header {
+      margin-bottom: 50px;
+    }
+
+    /* --- ANIMASI MASUK --- */
+    @keyframes fadeSlideUp {
+      0% {
+        opacity: 0;
+        transform: translateY(25px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .intro-text {
+      font-size: 1.2rem;
+      color: #f5f5f5;
+      opacity: 0;
+      animation: fadeSlideUp 1s ease forwards;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      font-weight: 700;
+      margin-top: 10px;
+      opacity: 0;
+      animation: fadeSlideUp 1.2s ease forwards;
+      animation-delay: 0.8s;
+    }
+
+    header p {
+      margin-top: 10px;
+      font-size: 1.1rem;
+      color: #ddd;
+      opacity: 0;
+      animation: fadeSlideUp 1.2s ease forwards;
+      animation-delay: 1.6s;
+    }
+
+    .desc {
+      margin-top: 20px;
+      color: #eaeaea;
+      line-height: 1.7;
+      max-width: 700px;
+      margin-left: auto;
+      margin-right: auto;
+      opacity: 0;
+      animation: fadeSlideUp 1.2s ease forwards;
+      animation-delay: 2s;
+    }
+
+    /* --- SOSIAL MEDIA BUTTONS --- */
+    .social-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+      margin-top: 40px;
+      opacity: 0;
+      animation: fadeSlideUp 1.2s ease forwards;
+      animation-delay: 2.5s;
+    }
+
+    .social-buttons a {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      background: rgba(255, 255, 255, 0.1);
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      padding: 10px 20px;
+      border-radius: 40px;
+      color: #fff;
+      font-size: 0.95rem;
+      font-weight: 500;
+      transition: all 0.3s ease;
+    }
+
+    .social-buttons a:hover {
+      background: #fff;
+      color: #000;
+      transform: scale(1.05);
+    }
+
+    .social-buttons img {
+      width: 22px;
+      height: 22px;
+    }
+
+    /* --- SECTION --- */
+    section {
+      margin-top: 60px;
+      text-align: left;
+      opacity: 0;
+      animation: fadeSlideUp 1.2s ease forwards;
+      animation-delay: 3s;
+    }
+
+    section h2 {
+      font-size: 1.4rem;
+      margin-bottom: 15px;
+      border-left: 4px solid #6c63ff;
+      padding-left: 10px;
+      color: #fff;
+    }
+
+    section p {
+      line-height: 1.7;
+      color: #f0f0f0;
+    }
+
+    footer {
+      margin-top: 60px;
+      text-align: center;
+      font-size: 0.85rem;
+      color: #aaa;
+      opacity: 0;
+      animation: fadeSlideUp 1.2s ease forwards;
+      animation-delay: 3.4s;
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay">
+    <div class="container">
+      <header>
+        <p class="intro-text">Halo, Nama saya Gx Dikzz</p>
+        <h1>Gx Dikzz</h1>
+        <p>Developer Bot WhatsApp — <strong>REZ•oneXD</strong></p>
+        <p class="desc">
+          Saya adalah developer bot WhatsApp yang fokus pada fitur realtime, auto-reply,
+          dan integrasi modern untuk komunitas. Saya juga membuat konten di channel
+          <strong>XDica BOT</strong>.
+        </p>
+
+        <div class="social-buttons">
+          <a href="https://wa.me/6285768090238" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp">
+            WhatsApp
+          </a>
+          <a href="https://www.youtube.com/@XDicaBOT" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" alt="YouTube">
+            YouTube
+          </a>
+          <a href="https://github.com/rezonexd" target="_blank">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub">
+            GitHub
+          </a>
+          <a href="https://www.instagram.com/trio_tkj?igsh=aDE2Znk4ZHcyOXF5" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram">
+            Instagram
+          </a>
+          <a href="https://tiktok.com/@gx.dikzzofficial" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/3046/3046121.png" alt="TikTok">
+            TikTok
+          </a>
+        </div>
+      </header>
+
+      <section>
+        <h2>Tentang Saya</h2>
+        <p>
+          Hai, saya <strong>Gx Dikzz</strong> — pengembang bot WhatsApp <strong>REZ•oneXD</strong>.
+          Saya membuat berbagai fitur seperti AFK, auto-reply, media handler, dan
+          sistem AI realtime. Saya juga aktif berbagi pengetahuan lewat channel
+          YouTube <strong>XDica BOT</strong>.
+        </p>
+      </section>
+
+      <section>
+        <h2>Proyek</h2>
+        <p>
+          • <strong>REZ•oneXD</strong> — Bot WhatsApp berbasis Node.js dengan integrasi AI.<br>
+          • <strong>XDica BOT</strong> — Channel YouTube yang membahas tutorial bot dan coding.<br>
+          • Proyek open-source lainnya di GitHub saya.
+        </p>
+      </section>
+
+      <footer>
+        © <span id="year"></span> Gx Dikzz • Developer REZ•oneXD
+      </footer>
+    </div>
+  </div>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
